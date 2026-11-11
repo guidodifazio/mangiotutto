@@ -12,6 +12,10 @@ nav.lingue{margin:12px 0 24px;display:flex;gap:8px;flex-wrap:wrap}
 nav.lingue a{padding:4px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--fg);font-size:15px}
 section.lingua{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 24px 20px;margin-bottom:28px}
 a{color:var(--accent)}p,li{margin:6px 0}.nota{color:var(--muted);font-size:15px}
+.scheda{display:grid;grid-template-columns:1fr;gap:12px;align-items:start;padding:12px 0;border-top:1px solid var(--line)}
+.scheda img{width:220px;max-width:60%;border-radius:18px;border:1px solid var(--line);justify-self:center}
+@media (min-width:640px){.scheda.con-foto{grid-template-columns:1fr 220px}.scheda img{max-width:none}}
+ol.indice{columns:2;column-gap:24px;padding-left:20px}ol.indice li{break-inside:avoid;margin:0 0 6px}
 footer{color:var(--muted);font-size:14px;margin-top:40px;text-align:center}
 </style></head>
 <body><main>
@@ -54,5 +58,5 @@ footer{color:var(--muted);font-size:14px;margin-top:40px;text-align:center}
 <p><strong>Le nom trouvé avec le code-barres est erroné.</strong> Les données viennent d'Open Food Facts, une base construite par des bénévoles : corrigez-les dans la fiche avant d'enregistrer.</p>
 <p><strong>Confidentialité.</strong> L'app ne collecte aucune donnée : lisez la <a href="privacy.html#fr">politique de confidentialité</a>.</p>
 <p><strong>Merci à Open Food Facts</strong> et à sa communauté de bénévoles : la recherche par code-barres de Mangio tutto repose sur leur travail.</p></section><p class="nota">I dati dei prodotti provengono da <a href="https://world.openfoodfacts.org">Open Food Facts</a>, con licenza Open Database License; le foto con licenza Creative Commons BY-SA.</p>
-<footer>Mangio tutto · <a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Assistenza / Support / Soporte / Assistance</a></footer>
+<footer>Mangio tutto · <a href="index.html">Home</a> · <a href="guida.html">Guida / Guide / Guía</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Assistenza / Support / Soporte / Assistance</a></footer>
 </main></body></html>
